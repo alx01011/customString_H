@@ -27,13 +27,4 @@ ps.exe: src/main.o src/mystring_ptrs.o
 clean:
 	-rm -f *.exe ./src/*.o
 
-turnin: undoTurnin
-	-git tag assignment2
-	-git push origin --tags
-
-undoTurnin:
-	if git tag --list | egrep -q "assignment2"; then \
-		git tag -d assignment2 && git push origin :refs/tags/assignment2; \
-		fi
-
 
