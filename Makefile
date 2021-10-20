@@ -2,9 +2,9 @@
 #
 # file: Makefile
 #
-# @Author:   Iacovos G. Kolokasis
+# @Author:   Alexandros E. Antonakakis
 # @Version:  10-02-2021
-# @email:    kolokasis@csd.uoc.gr
+# @email:    csd4802@csd.uoc.gr
 #
 # Makefile
 #
